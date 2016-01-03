@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_splash_screen_6"
+    android:paddingTop="100dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/str_tv_select_bank"
+        android:id="@+id/tvSelectBand"
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:background="@drawable/apptheme_spinner_background_holo_light"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dropdown"
+        android:textSize="@dimen/dim_edt_font_size"
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint ="@string/str_edt_account_no_hint"
+        android:id="@+id/edtAccNo"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textSize="@dimen/dim_edt_font_size"
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom" />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/str_btn_add_account"
+        android:id="@+id/btnAddAcc"
+        android:layout_gravity="right"
+        android:textColor="#fff"
+        android:background="@drawable/btn_bg_blue" />
+
+
+</LinearLayout>

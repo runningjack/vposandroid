@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_splash_screen_6"
+    android:padding="10dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="20"
+        android:columnCount="18"
+        android:id="@+id/mygrid"
+        tools:ignore="UselessParent">
+
+        <ImageButton
+            android:layout_width="155dp"
+            android:layout_height="130dp"
+            android:id="@+id/imgBtnMainAddAccount"
+            android:layout_row="17"
+            android:layout_column="10"
+            android:background="@drawable/btn_add_account"
+            android:src="@drawable/btn_add_account"
+            android:contentDescription="@string/str_img_btn_add_account_desc" />
+
+        <ImageButton
+            android:layout_width="155dp"
+            android:layout_height="130dp"
+            android:id="@+id/imgBtnTransactions"
+            android:layout_row="17"
+            android:layout_column="17"
+            android:background="@drawable/btn_transactions"
+            android:contentDescription="@string/str_img_btn_transactions_desc" />
+
+        <ImageButton
+            android:layout_width="155dp"
+            android:layout_height="130dp"
+            android:id="@+id/imgBtnAccountListing"
+            android:layout_row="18"
+            android:layout_column="10"
+            android:background="@drawable/btn_add_account_listing"
+            android:contentDescription="@string/str_img_btn_account_listing_desc"
+           />
+
+        <ImageButton
+            android:layout_width="155dp"
+            android:layout_height="130dp"
+            android:id="@+id/imageButton4"
+            android:layout_row="18"
+            android:layout_column="17"
+            android:background="@drawable/btn_notifications"
+            android:contentDescription="@string/str_img_btn_notifications_desc" />
+
+        <ImageButton
+            android:layout_width="155dp"
+            android:layout_height="130dp"
+            android:id="@+id/imgBtnMakePayment"
+            android:layout_row="19"
+            android:layout_column="10"
+            android:background="@drawable/btn_make_payment"
+            android:contentDescription="@string/str_img_btn_make_payment_desc" />
+
+        <ImageButton
+            android:layout_width="155dp"
+            android:layout_height="130dp"
+            android:id="@+id/imgBtnHelp"
+            android:layout_row="19"
+            android:layout_column="17"
+            android:background="@drawable/btn_help"
+            android:contentDescription="@string/str_img_btn_help_desc" />
+
+    </GridLayout>
+
+</LinearLayout>
